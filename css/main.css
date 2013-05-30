@@ -1,0 +1,127 @@
+/*@import url(http://fonts.googleapis.com/css?family=PT+Serif|PT+Serif:b|PT+Serif:i|PT+Sans|PT+Sans:b);*/
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu:400);*/
+
+
+/*----------------------------------------------------------
+------ General Settings 
+----------------------------------------------------------*/
+
+body {
+	background: #FFFFEB;
+	color: #333;
+	/*font-family: "PT serif", serif;*/
+  font-family: 'PT Sans', sans-serif;
+	position: relative;
+	width: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 4em;
+	margin-left: auto;  /*width: 960px;*/
+}
+
+header,
+footer,
+h1,
+h2,
+h3,
+h4,#FFFFEC
+aside {
+  color: #000;
+  /*font-family: "Ubuntu Sans", sans-serif;*/
+}
+
+
+h1 {
+	font-size: 58px;
+	font-weight: 400;
+	/*letter-spacing: -2px;*/
+  letter-spacing: -1px; /*top right bot left*/
+	/*color: #3E606F;*/
+	color: #FFFFFF;
+	/* [disabled]display: block; */
+	/* [disabled]width: 960px; */
+	margin: 0px;
+}
+
+h2 {
+	margin: 0px;  /*margin-top: 1.5em;*/
+	/* [disabled]background-color: #CC3; */
+	/* [disabled]display: block; */
+}
+
+h1, h2 {
+  text-rendering: optimizeLegibility;
+}
+
+h2 a {
+  color: #ccc;
+  left: -20px;
+  position: absolute;
+  width: 600px;
+}
+
+h3{
+	margin-left: 15px;
+	letter-spacing: 0.5px;
+}
+
+p{
+  width:600px;
+  margin-left: 15px;
+}
+
+h3~p{
+  margin-left: 30px;
+}
+
+a {
+  color: steelblue;
+}
+
+a:not(:hover) {
+  text-decoration: none;
+}
+
+.topBanner {
+	background-color:#457993;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	top: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #3D4E5A;
+	-moz-box-shadow: 0px 3px 2px #999;
+	-webkit-box-shadow: 0px 3px 2px #999;
+	box-shadow: 0px 3px 2px #999;
+	/* [disabled]float: left; */
+	/* [disabled]margin-bottom: 20px; */
+}
+.bannerContent {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	/* [disabled]float: left; */
+	/* [disabled]background-color: #F00; */
+}
+.bannerContent a img{
+	float: left;
+	left: -50px;
+	position: relative;
+	margin-right: 10px;
+	bottom: 15px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+.container {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+

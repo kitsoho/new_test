@@ -1,0 +1,330 @@
+/*----------------------------------------------------------
+------ Settings for map of one county 
+----------------------------------------------------------*/
+.single{
+  position: relative;
+  float:right;
+  width: 300px;
+}
+
+.single p{
+  font-size: 90%;
+  font-family: sans-serif;
+  font-weight: 900;
+  text-align:left;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.margincontainer{
+  outline-width:2;
+  border-color:#606060 ;
+  border-style:solid;
+  border-width: 2; 
+  height: 210px;
+  background-color:#D1DBBD; 
+}
+
+
+.single{
+  margin-top: 75px;
+
+
+}
+
+.margininfo {
+	/*width: 120px;*/
+	/*width: 120px;*/
+	
+	background-color:#D1DBBD;
+	font-size: 75%;
+	font-family: sans-serif;
+	padding:5px;
+	position:absolute;
+	right:-50px;
+	bottom:10px;
+	border: solid;
+	border-color:#606060;
+	border-width:2px;
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);	/*height: 100%;*/
+	display: table;
+}
+
+
+.margininfo.hidden {
+	/* height:30px;*/
+  opacity:0;
+	/* [disabled]padding:5px; */
+
+}
+
+
+
+/*----------------------------------------------------------
+------ Settings for chart and map
+----------------------------------------------------------*/
+
+.bothcontainer{ /*overall container*/
+	position: relative;
+	margin-top: 35px;
+}
+
+.resourcecontainer{ /*individual containers for map and chart*/
+  width:430px; /* needs to be a little wider than dataresource*/
+
+}
+
+.dataresource{
+	height:400px;
+	outline-width:2;
+	background-color:#D1DBBD;
+	border-color:#606060;
+	border-style:solid;
+	border-width: 2;
+	position: relative;
+}
+
+.resourcecontainer.map{
+  float: right;
+  top:0;
+}
+
+
+.resourcecontainer p{  
+  font-size: 80%;
+  font-family: sans-serif;
+  font-style: italic;
+  position:relative;
+  margin-left:10px;
+  text-indent: 0;
+  width:400px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+
+}
+
+.cngcolor{
+  background-color:red;
+  height:30px;
+  width:30px;
+
+}
+
+
+.click {
+	position: relative;
+	cursor: pointer;
+	/*background-color: #3E606F;*/
+  background-color: #869D55;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	/* [disabled]-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); */
+	/* [disabled]-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); */
+	/* [disabled]box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); */
+	/*pointer-events: none;*/
+  font-size:75%;
+	font-family: sans-serif;
+	font-weight: bold;
+	color:#EEEED1;
+	padding: 7px;
+	width: 110px;
+}
+
+
+
+#clickcolor{
+margin-left: 0;
+margin-right: 0;
+}
+
+#clicksort{
+
+}
+
+#clickcircle{
+	/* [disabled]position:absolute; */
+	/* [disabled]right:80px; */
+	/* [disabled]width:250px; */
+}
+
+.title{
+  display:inline;
+  margin-left: 50px;
+}
+
+.title.map{
+  position:absolute;
+  right:300px;
+}
+
+
+/*This is for the axis*/
+
+.axis path,
+.axis line{
+
+  fill:none;
+  stroke: #606060;
+  shape-rendering: crispEdges;
+}
+
+
+
+.axis text{
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+#yaxistitle{
+  font-size:12px;
+  font-family: "Arial";
+}
+
+.gradient{
+  height:100px;
+  width:20px;
+
+  background: rgb(53,19,48); /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM1MTMzMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzUxMzMwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjUlIiBzdG9wLWNvbG9yPSIjNzM1NTY4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjJmMmYyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzUlIiBzdG9wLWNvbG9yPSIjNWE3MzVhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzM2NDAzNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(top,  rgba(53,19,48,1) 0%, rgba(53,19,48,1) 0%, rgba(115,85,104,1) 25%, rgba(242,242,242,1) 50%, rgba(90,115,90,1) 75%, rgba(54,64,53,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(53,19,48,1)), color-stop(0%,rgba(53,19,48,1)), color-stop(25%,rgba(115,85,104,1)), color-stop(50%,rgba(242,242,242,1)), color-stop(75%,rgba(90,115,90,1)), color-stop(100%,rgba(54,64,53,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(53,19,48,1) 0%,rgba(53,19,48,1) 0%,rgba(115,85,104,1) 25%,rgba(242,242,242,1) 50%,rgba(90,115,90,1) 75%,rgba(54,64,53,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(53,19,48,1) 0%,rgba(53,19,48,1) 0%,rgba(115,85,104,1) 25%,rgba(242,242,242,1) 50%,rgba(90,115,90,1) 75%,rgba(54,64,53,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(53,19,48,1) 0%,rgba(53,19,48,1) 0%,rgba(115,85,104,1) 25%,rgba(242,242,242,1) 50%,rgba(90,115,90,1) 75%,rgba(54,64,53,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(53,19,48,1) 0%,rgba(53,19,48,1) 0%,rgba(115,85,104,1) 25%,rgba(242,242,242,1) 50%,rgba(90,115,90,1) 75%,rgba(54,64,53,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#351330', endColorstr='#364035',GradientType=0 ); /* IE6-8 */
+
+}
+
+.gradientcontainer{
+	position: absolute;
+	/*left: 650px;
+top: 700px;*/
+font-family: Arial;
+	font-size: 70%;
+	opacity:0;
+	left:15px;
+	top:30px;
+}
+
+.gradientcontainer.hidden {
+  opacity:0;
+}
+
+
+.countypt{
+  fill: #3E606F;
+  opacity: 0.35;
+  stroke: white;
+  stroke-width: 1;
+  pointer-events: none;/*// so that you can access counties underneath*/
+}
+
+.countypt2{
+  fill: #3E606F;
+  opacity: 0.5;
+  stroke: white;
+  stroke-width: 1;
+  pointer-events: none;/*// so that you can access counties underneath*/
+}
+
+
+.countyareas{
+  fill: gray;
+}
+
+.mousemap{
+  fill: black;
+}
+
+.onecounty{
+  fill: #3E606F;
+  stroke: black;
+  stroke-width:1;
+}
+.circlevariable2.variable{
+	color:red;
+
+}
+.sortvariable2.variable {
+	color:red;
+}
+
+
+.resourcedescription{
+  height:20px;
+}
+
+.tompkins{
+  font-weight: bold;
+  color:red;
+}
+
+
+
+.warning{
+  font-size: 35%;
+  color:red;
+  width:600px;
+  letter-spacing: 0px;}
+
+  .buttons{
+    margin-top:40px;
+  }
+
+
+  .date{
+    font-size: 80%;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 50px;
+
+  }
+
+
+/*Note that I hardcoded the mouseout because I wanted a transition
+.bars{
+  fill: #3E606F;
+}
+
+.mousebars{
+  fill: red;
+}*/
+.d3_heading {
+	/* [disabled]text-transform: capitalize; */
+	font-size: 20px;
+	/* [disabled]font-weight: bold; */
+	letter-spacing: 0em;
+	background-color: #3E606F;
+	color: #FFF;
+	padding: 10px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #606060;
+	border-right-color: #606060;
+	border-left-color: #606060;
+}
+.legend {
+	/* [disabled]background-color: #3CC; */
+	height: 80px;
+	width: 170px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.legend_title {
+	font-weight: bold;
+	margin-bottom: 3px;
+	display: block;
+	margin-top: 5px;
+}
