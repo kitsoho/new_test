@@ -1,0 +1,1497 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getCntyData"
+			],
+			[
+				"city",
+				"citycartoCSS"
+			],
+			[
+				"info",
+				"infoTRPT"
+			],
+			[
+				"TR",
+				"TRcartoCSS"
+			],
+			[
+				"ny",
+				"nystracts"
+			],
+			[
+				"poly",
+				"polytest"
+			],
+			[
+				"remove",
+				"removehull"
+			],
+			[
+				"prev",
+				"prevzoom  (variable)"
+			],
+			[
+				"the",
+				"thesettings"
+			],
+			[
+				"button",
+				"buttoncontainer"
+			],
+			[
+				"setC",
+				"setCartoCSS"
+			],
+			[
+				"pop2",
+				"pop2010"
+			],
+			[
+				"nystracts",
+				"nystractspt"
+			],
+			[
+				"rad",
+				"radDegFromMiles"
+			],
+			[
+				"T",
+				"TractPtLyr  (variable)"
+			],
+			[
+				"overl",
+				"overlayMapTypes"
+			],
+			[
+				"Trac",
+				"TractPtLyr"
+			],
+			[
+				"setc",
+				"setCartoCSS"
+			],
+			[
+				"geome",
+				"countiesGeometries"
+			],
+			[
+				"nys",
+				"nyscnty"
+			],
+			[
+				"P",
+				"PointLyr"
+			],
+			[
+				"nysGe",
+				"nysGeoJSONline"
+			],
+			[
+				"legen",
+				"addLegend"
+			],
+			[
+				"mou",
+				"mouseout"
+			],
+			[
+				"create",
+				"createCircleScale"
+			],
+			[
+				"cur",
+				"curcircvar  (variable)"
+			],
+			[
+				"upate",
+				"updateCircles"
+			],
+			[
+				"margin",
+				"margincontainer"
+			],
+			[
+				"data",
+				"dataresource"
+			],
+			[
+				"one",
+				"onecounty"
+			],
+			[
+				"tmp",
+				"tmpstroke"
+			],
+			[
+				"current",
+				"currentbarINFO"
+			],
+			[
+				"gradient",
+				"gradientcontainer"
+			],
+			[
+				"obes",
+				"obesRate"
+			],
+			[
+				"color",
+				"colorStatus"
+			],
+			[
+				"colo",
+				"changeColor"
+			],
+			[
+				"th",
+				"thelabels"
+			],
+			[
+				"res",
+				"resourcetype"
+			],
+			[
+				"cpid",
+				"cpidavail"
+			],
+			[
+				"total",
+				"total_rows"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"year",
+				"yearassociatedto='2002"
+			],
+			[
+				"Num",
+				"NumNonDetects"
+			],
+			[
+				"ana",
+				"analytecode"
+			],
+			[
+				"water",
+				"waterquery"
+			],
+			[
+				"state",
+				"state_summary_cutpoints"
+			],
+			[
+				"p",
+				"pollutant"
+			],
+			[
+				"sele",
+				"selectedpollutant"
+			],
+			[
+				"pollut",
+				"pollutantMenu"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"left",
+				"leftsidebar"
+			],
+			[
+				"fir",
+				"firsttable"
+			],
+			[
+				"gr",
+				"growAndGlow"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"box-sh",
+				"box-shadow:   (property)"
+			],
+			[
+				"hidd",
+				"hidden"
+			],
+			[
+				"cont",
+				"containerbox"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11220,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app.js",
+			"settings":
+			{
+				"buffer_size": 27451,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/ie6_8.js",
+			"settings":
+			{
+				"buffer_size": 240,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sql/cartodb.sql",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cartoCSS/cartocss.css",
+			"settings":
+			{
+				"buffer_size": 1910,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2955,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"q",
+				"Git: Quick Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"gui",
+				"Git: Gui"
+			],
+			[
+				"pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"git gui",
+				"Git: Gui"
+			],
+			[
+				"git in",
+				"Git: Init"
+			],
+			[
+				"pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"todo",
+				"Show TODOs: Open files only"
+			],
+			[
+				"insert",
+				"Gist: Insert Gist"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"jquer",
+				"Snippet: HTML - Include jQuery"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"htmlp",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Gist: Insert Gist"
+			],
+			[
+				"jq",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"to",
+				"Show TODOs: Open files only"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"g",
+				"Git: Gitk"
+			],
+			[
+				"git",
+				"Git: Diff All"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"tod",
+				"Show TODOs: Open files only"
+			],
+			[
+				"show",
+				"Show TODOs: Open files only"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"function",
+				"Snippet: Function"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"push b",
+				"Git: Push Current Branch"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"gis",
+				"Gist: Create Private Gist"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"syntax sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"package re",
+				"Package Control: Remove Package"
+			],
+			[
+				"copy",
+				"File: Copy as Tag script"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"sni js",
+				"Snippet: A basic jQuery selector"
+			],
+			[
+				"snippet jq",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"package lis",
+				"Package Control: List Packages"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"colorscheme",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"colors",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"packag inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"package remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Fetch: Package"
+			],
+			[
+				"gist ope",
+				"Gist: Open Gist"
+			],
+			[
+				"snippe",
+				"Snippet: html"
+			],
+			[
+				"html	",
+				"Snippet: HTML - Stylesheet link"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"copy	",
+				"File: Copy as Tag a"
+			],
+			[
+				"snippet html",
+				"Snippet: html"
+			],
+			[
+				"snippet html5",
+				"Snippet: HTML - HTML5 shiv"
+			],
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"snip	",
+				"Snippet: CSS - display: block;"
+			],
+			[
+				"htm inc	",
+				"Snippet: HTML - Include jQuery"
+			],
+			[
+				"snippet sc",
+				"Snippet: HTML - Script"
+			],
+			[
+				"pacakg",
+				"Package Control: Remove Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"snip",
+				"Snippet: HTML - Meta tags"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: 	",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins	",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: en",
+				"Package Control: Enable Package"
+			],
+			[
+				"su",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 311.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/testing/interactive/css/style.css",
+		"/C/wamp/www/testing/cartodb/src/data.json",
+		"/C/wamp/www/testing/cartodb/src/junk.html",
+		"/C/wamp/www/testing/cartodb/src/appd3.js",
+		"/C/wamp/www/testing/interactive/index.html",
+		"/C/wamp/www/testing/interactive/src/app.js",
+		"/C/wamp/www/testing/cartodb/src/appjunk.js",
+		"/C/wamp/www/projects/cehtp/sql/cehtp.sql",
+		"/C/wamp/www/testing/cartodb/src/GeoJSON.js",
+		"/C/wamp/www/testing/cartodb/css/style.css",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/X/projects/other/yelp/yelp_test_set/yelp_test_set_user.json",
+		"/X/projects/other/yelp/yelp_training_set/yelp_training_set_user.json",
+		"/X/projects/other/yelp/yelp_training_set/yelp_training_set_business.json",
+		"/X/projects/other/yelp/yelp_training_set/yelp_training_set_checkin.json",
+		"/X/projects/other/yelp/yelp_training_set/yelp_training_set_review.json",
+		"/C/wamp/www/testing/cartodb/src/app.js",
+		"/C/wamp/www/projects/cehtp/cehtp.html",
+		"/C/wamp/www/projects/cehtp/src/cehtp_resources.js",
+		"/X/administrative/website/website_CURRENT/index.html",
+		"/C/wamp/www/near_finished/d3/index.html",
+		"/C/wamp/www/near_finished/d3/css/style.css",
+		"/C/wamp/www/projects/cehtp/cartoCSS/cartoCSS.css",
+		"/C/wamp/www/testing/beer/maps.js",
+		"/C/wamp/www/testing/cartodb/data/ba-us.xml",
+		"/C/wamp/www/testing/cartodb/junk.html",
+		"/C/wamp/www/testing/cartodb/connect_googleGeocode.php",
+		"/C/wamp/www/testing/cartodb/doGoogleGeocoding_splitAddressWaccuracy.php",
+		"/C/wamp/www/testing/cartoDB2/index.html",
+		"/C/wamp/bin/apache/Apache2.2.21/conf/httpd.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/testing/interactive/gis/raw/gis.txt",
+		"/C/wamp/www/testing/interactive/src/yepnope.1.5.4-min.js",
+		"/C/wamp/www/testing/interactive/interactiveWork.sublime-workspace",
+		"/C/wamp/www/testing/interactive/queuetest.html",
+		"/C/wamp/www/testing/interactive/tmpmappt.html",
+		"/C/wamp/www/testing/interactive/tmpmap.html",
+		"/C/wamp/www/testing/d3/old/circle/d3.html",
+		"/C/wamp/www/testing/d3/old/circle/zev.js",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+		"/C/wamp/www/testing/d3/old/zev/d3.html",
+		"/C/wamp/www/testing/d3/d3.html",
+		"/C/wamp/www/testing/d3/old/d3.html",
+		"/C/wamp/www/testing/d3/old/d3_experiment2.html",
+		"/D/dropbox/Dropbox/work/web_development/www/interactive/interactive.html",
+		"/D/dropbox/Dropbox/work/web_development/www/d3v2/index.html",
+		"/D/dropbox/Dropbox/work/web_development/www/d3v3/index.html",
+		"/C/wamp/www/testing/interactiveOld/interactive2.html",
+		"/C/wamp/www/testing/TopoJSON/stroke_county.html",
+		"/C/wamp/www/testing/interactive/gis/nyscntypt.geojson",
+		"/C/wamp/www/testing/interactive/gis/nyscntypt.topojson",
+		"/C/wamp/www/testing/interactive/src/topojson.v1.min.js",
+		"/C/wamp/www/testing/interactive/src/d3.v3.min.js",
+		"/C/wamp/www/testing/interactive/src/d3.min.js",
+		"/C/wamp/www/testing/interactive/src/topojson.js",
+		"/C/wamp/www/testing/interactive/src/queue.v1.min.js",
+		"/C/wamp/www/testing/interactive/src/queue.min.js",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/C/wamp/www/testing/interactive/src/tmpmap.js",
+		"/C/wamp/www/testing/interactive/src/appIE.js",
+		"/X/zev/computer/d3/murray_book/d3-book-master/chapter_10/07_sort.html",
+		"/X/zev/computer/d3/murray_book/d3-book-master/chapter_08/04_axes_y.html",
+		"/C/wamp/www/testing/interactive/reference/bars_scatter_buttontoshuffle.html",
+		"/C/wamp/www/testing/interactive/src/gradient.js",
+		"/X/zev/computer/d3/murray_book/d3-book-master/chapter_10/14_div_tooltip.html",
+		"/X/zev/computer/d3/murray_book/d3-book-master/chapter_10/12_browser_tooltip_text.html",
+		"/D/dropbox/Dropbox/work/web_development/clones/d3experiment/index.html",
+		"/D/junk/x.html",
+		"/C/wamp/www/testing/d3/old/d3_barchart2.html",
+		"/C/wamp/www/testing/interactive/gis/nyscntypt.json",
+		"/C/wamp/www/testing/TopoJSON/county_boundaries.html",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/herokoapp/nrdc/server.js",
+		"/X/projects/DASH/dashStats/latex/dashModels/tables/DASHn.headmig.DX1_SingAndDist.tex",
+		"/C/wamp/www/testing/TopoJSON/src/gis.txt",
+		"/C/Users/Zev Ross/other/preparedata.txt",
+		"/C/wamp/www/testing/TopoJSON/topojson.html",
+		"/X/projects/cehtp/web/sql/cehtp.sql",
+		"/X/projects/cehtp/web/cartoCSS/cartoCSS.css",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/SublimeTODO/Default (Windows).sublime-keymap",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/SublimeTODO/Default.sublime-commands",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/X/projects/cehtp/web/src/cehtp_resources.js",
+		"/X/projects/cehtp/web/src/nitrate_testing.js",
+		"/X/projects/cehtp/web/map_testing.html",
+		"/X/projects/old/sf_HIV/web_dev/hivaids_atlas.html",
+		"/X/projects/old/sf_HIV/web_dev/css/legend_info.css",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/Color Scheme - Default/Solarized (Dark)zev.tmTheme",
+		"/X/projects/cehtp/web/js/cehtp_resources.js",
+		"/D/junk/testsystem.csv",
+		"/C/wamp/www/cartoDB/junk.html",
+		"/X/projects/cehtp/web/README.md",
+		"/X/projects/cehtp/web/cehtp.htm",
+		"/X/projects/cehtp/cehtpWeb/ehib.sublime-project",
+		"/X/projects/cehtp/cehtpWeb/ehib.sublime-workspace",
+		"/D/dropbox/Dropbox/work/web_development/www/ehib/css/data_resources.css",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/D/dropbox/Dropbox/work/web_development/www/ehib/test.html",
+		"/C/Users/Zev Ross/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/D/dropbox/Dropbox/work/web_development/www/ehib/ehib.htm",
+		"/D/dropbox/Dropbox/work/web_development/www/ehib/js/data_resources.js",
+		"/D/dropbox/Dropbox/work/web_development/www/ehib/sql/ehib.sql",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/herokoapp/nrdc/public/css/map.css",
+		"/D/junk/nrdcdata/China Climate & Energy Map_files/widget113.css",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/herokoapp/nrdc/lib/regions.js",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/herokoapp/nrdc/client/app/collections/datasets.js",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/herokoapp/nrdc/client/app/views/map_view.js",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/herokoapp/nrdc/client/app/views/chart_view.js",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/www.chinaclimatemap.com/web/content/index.html",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/www.chinaclimatemap.com/web/content/app/index.php",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/www.chinaclimatemap.com/web/content/index.php",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/webtree.chinaenergymap.org/web/content/app/webroot/index.php",
+		"/X/projects/nrdc_webmap/products/final_web_from_AWP/webtree.chinaenergymap.org/web/content/app/webroot/video.php",
+		"/D/junk/cartodb.html",
+		"/D/junk/b.html",
+		"/D/junk/try.html",
+		"/D/junk/test.html",
+		"/D/dropbox/Dropbox/work/web_development/www/ehib/ehib2.htm",
+		"/D/dropbox/Dropbox/work/web_development/www/ehib/js/data_resources2.js",
+		"/C/wamp/www/cartoDB2/index.html",
+		"/C/wamp/www/cartoDB2/css/main.css",
+		"/D/Dropbox/work/web_development/www/ehib/css/data_resources.css",
+		"/D/Dropbox/work/web_development/www/ehib/sql/ehib.sql",
+		"/D/junk/test/Agricultural Pesticide Use Web Mapping Service.htm",
+		"/D/junk/test/Agricultural Pesticide Use Web Mapping Service_files/{mod_drag,mod_kml_api,mod_apiiw,mod_scrwh}.js",
+		"/D/junk/test/Agricultural Pesticide Use Web Mapping Service_files/navigation.js",
+		"/D/junk/test/Agricultural Pesticide Use Web Mapping Service_files/excanvas.js",
+		"/D/junk/test/Agricultural Pesticide Use Web Mapping Service_files/pur.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"app.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"blah",
+			"hull",
+			"gray37",
+			"sql",
+			"geojson",
+			"Geojson",
+			"getC",
+			"bound",
+			"remove",
+			"eth",
+			"select * from",
+			"setq",
+			"setQ",
+			"remov",
+			"});",
+			"tick",
+			"d3.",
+			"sql",
+			"frm",
+			"geo",
+			"city",
+			"interaction",
+			"setat",
+			"interaction",
+			"nystrac",
+			"eth",
+			"#",
+			"countybound",
+			"console",
+			"getbounds",
+			"console",
+			"counties",
+			"960",
+			"countyv",
+			">\n",
+			"cartoCSS",
+			"thesettings",
+			"eth",
+			"cartoCSS",
+			"cngCar",
+			"qcat",
+			"visi",
+			"geoj",
+			"geojs",
+			"setq",
+			"zoom",
+			"cartoCSS",
+			"layer.setCartoCSS(cartoCSS);",
+			"carto",
+			"zoomCA",
+			"frm",
+			"google",
+			"user",
+			"italic",
+			"margin",
+			"color cod",
+			"circle",
+			"hover",
+			"color",
+			"color code",
+			"gradient",
+			"console",
+			"color code",
+			"color",
+			"opacit",
+			"console.log",
+			"console",
+			"console.log",
+			"console.og",
+			"sort",
+			"Math",
+			"margin",
+			"marginre",
+			"div",
+			"count",
+			"450px",
+			"console.l",
+			"3E606F",
+			" #",
+			"addre",
+			"\";",
+			"\n    ",
+			"currentsortvar",
+			"currentcolorvar",
+			"nyscnty",
+			"barPadding",
+			"svgwidth",
+			"pdf",
+			"obesity rate",
+			"obesity rates",
+			"obesity",
+			"o",
+			"obesity",
+			"*",
+			"obesRate",
+			"id",
+			"nysGeoJSONfilt",
+			"console.og",
+			"console.log",
+			"   svg.append(\"g\")\n      .attr(\"class\", \"counties\")\n      .selectAll(\"path\")\n      .data(nysGeoJSON.features)\n      .enter()\n      .append(\"path\")\n      .attr(\"d\", path)\n      .attr(\"fill\", \"red\");",
+			"body",
+			"opacity",
+			"#",
+			"\");});\n",
+			">\n",
+			"aggtype",
+			"Maggtype",
+			"aggty",
+			"document",
+			"base",
+			"legend",
+			"cehtp.pollutant",
+			"waterquery = \"SELECT inv.*, \\\n//     sys2.cp_id, sys2.analytecode \\\n//     FROM inventory inv \\\n//     LEFT JOIN  \\\n//     (SELECT * FROM system_level_ncdmscut sys \\\n//     WHERE sys.SummaryTimePeriod = '2002' AND \\\n//        sys.analytecode= '1005' AND \\\n//     sys.aggregationtype='X') sys2 \\\n//     ON (inv.pwsidnumber=sys2.pwsidnumber)  \\\n//     WHERE inv.yearassociatedto='2002'\"",
+			"selec",
+			"system_level_ncdms",
+			"water_quality_levels_summary",
+			"ca_ucp",
+			"ca_lcp",
+			"float",
+			"numsystems",
+			"concentration",
+			"system",
+			"system_level_ncdms",
+			"year",
+			"integer",
+			"r",
+			"ALTER TABLE system_level_ncdms ALTER COLUMN concentration TYPE float USING CAST(concentration AS float);\n",
+			"conentration"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"d3vals.svgwidth",
+			"Asia"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 11220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								614,
+								614
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"buffer_scroll_name": "085dabcd",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "src/app.js",
+					"settings":
+					{
+						"buffer_size": 27451,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										14162,
+										14162
+									],
+									[
+										27451,
+										27451
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								3269,
+								3269
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"buffer_scroll_name": "52ca98ee",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 675.0,
+						"translation.y": 1688.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/ie6_8.js",
+					"settings":
+					{
+						"buffer_size": 240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								8
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"buffer_scroll_name": "52a66497",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sql/cartodb.sql",
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								43
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"buffer_scroll_name": "afa24fde",
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "cartoCSS/cartocss.css",
+					"settings":
+					{
+						"buffer_size": 1910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1570,
+								1570
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"buffer_scroll_name": "5fa43012",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 2955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2854,
+								2854
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"buffer_scroll_name": "ddfca52b",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3226.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.54025210084,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 82.0
+	},
+	"output.git":
+	{
+		"height": 211.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 139.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/wamp/www/testing/interactive/interactiveWork.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 373.0,
+	"status_bar_visible": true
+}

@@ -79,13 +79,7 @@ p{
 
 }
 
-h3~p{
-  margin-left: 30px;
-}
 
-a {
-  color: steelblue;
-}
 
 a:not(:hover) {
   text-decoration: none;
@@ -116,6 +110,10 @@ a:not(:hover) {
 	margin-right: 32px;
 	bottom: 12px;
 }
+
+a {
+  color: steelblue;
+}
 .bannerContent {
 	width: 950px;
 	margin-right: auto;
@@ -125,7 +123,41 @@ a:not(:hover) {
 
 
 .container {
-	width: 800px;
+	width: 900px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.full-width{
+	width:900px;
+	display:block;
+	position: relative;
+	background-color: #39C;
+}
+
+.two-third{
+	width:640px;
+	float:left;
+	position: relative;
+}
+
+.one-third{
+	width:190px;
+	float:right;
+	background-color:#FFFFB0;
+	padding: 20px;
+	margin-top: 15px;
+	margin-left: 30px;
+	line-height: 19px;
+	right: 50px;
+	/* [disabled]position: relative; */
+}
+
+.one-third p{
+	font-size:0.8em;
+	margin:0px;
+}
+
+.half{
+	width:640px;
 }

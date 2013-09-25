@@ -37,8 +37,8 @@
     <!-- ------------------------->
     
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v2/themes/css/cartodb.css">
-    <link href="css/main2.css" rel="stylesheet" type="text/css">
-	<link href="css/extra2.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/extra.css" rel="stylesheet" type="text/css">
     <link href="css/buttons.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Asul:400,700' rel='stylesheet' type='text/css'>
     
@@ -66,52 +66,53 @@
 
 	<!-- Container that holds all content except for header -->
 	<div class="container">
-		
-        <p class="half"> As geographers and data enthusiasts we're pretty excited about the functionality available in the new service called CartoDB. Rather than simply providing a platform for serving geographic data, CartoDB  offers powerful features for both displaying and interacting with spatial and non-spatial data.</p>
-        
-        <div class="one-third">
-        <h3 class="listHead">From a technological perspective what does this example show you: </h3>
+
+        <p> As geographers and data enthusiasts we're pretty excited about the functionality available in the new service called CartoDB. Rather than simply providing a platform for serving geographic data, CartoDB  offers powerful features for both displaying and interacting with spatial and non-spatial data.</p>
+
+     
+
+
+        <h2>
+          An Example: Visualizing the Foreign-Born Population in New York State
+        </h2>
+
+        <p>
+          To illustrate some CartoDB functionality we've assembled Census data on the foreign born population at the Census tract and the county level (similar to the data used in our <a href="http://www.zevross.com/tech/d3">D3 example</a>). Details on the data itself are below but in general we've color-coded Census tracts (which you can choose to represent as centroids or polygons) based on the percentage of the population born in other countries.  </p>
+
+           <h3>From a technological perspective what does this example show you: </h3>
+
         <ul class="techList">
             <li><span class="emphasis">Updating the data on the fly:</span> the pull down that allows you to limit the tracts represented to the top 5, 10 or 25% is querying the database in real-time rather than rendering pre-made maps.</li>
             
             <li><span class="emphasis">Rasters and vectors can be rendered:</span> the tract-level data is being rendered as raster/tiles but when you select a county or generate an envelope these are vectors (prove it to yourself by dragging a county boundary).</li>
-            <li><span class="emphasis">Updating the styles on the fly:</span> when you change the country of origin the tract (centroid and polygon) styles are getting updated in real-time.</li>
-            <li><span class="emphasis">Access to non-geographic data:</span> The barchart below and the county pull down menu are populated on-the-fly using queries to the CartoDB database.</li>
+            <li style="margin-top:-10px"><span class="emphasis">Updating the styles on the fly:</span> when you change the country of origin the tract (centroid and polygon) styles are getting updated in real-time.</li>
+            <li><span class="emphasis">Access to non-geographic data:</span> The barchart below and the county pulldown menu are populated on-the-fly using queries to the CartoDB database.</li>
             <li><span class="emphasis">Advanced spatial database:</span> We're making use of the spatial functionality by creating the container box below.</li>
           </ul>
-          </div>
-
-     
-
-		<h3><span class="special">An Example</span>Visualizing the Foreign-Born Population in New York State </h3>
-        <!--<h2>
-          An Example: Visualizing the Foreign-Born Population in New York State
-        </h2>-->
-
-		<div class="two-third">
-        <p>
-          To illustrate some CartoDB functionality we've assembled Census data on the foreign born population at the Census tract and the county level (similar to the data used in our <a href="http://www.zevross.com/tech/d3">D3 example</a>). Details on the data itself are below but in general we've color-coded Census tracts (which you can choose to represent as centroids or polygons) based on the percentage of the population born in other countries.  </p>
-          </div>
-
-           <!--<h3>From a technological perspective what does this example show you: </h3>-->
-
-		
 
 
        
 
 
   
-        <div class="two-third">
+        <div class="mapcontainer">
         <h3><span class="special">The Map</span>Foreign-born as a percentage of total population </h3>
-
-       	<div id="map">
-       		Map  
-       	</div>
         
-                
-		<div class="toggle">
-        <div class="buttoncontainer" id="form">
+        <div class="mapFilter">
+        
+        <!--<div class ="filtermap" id="heading">Example Map Settings</div>-->
+        
+        <div class="column1">
+        <!-- Zoom search & button -->
+<!--        <div class="buttoncontainer">
+			<form class="form-wrapper cf" id="placeSearch">
+            <h4>Search by Location</h4>
+        		<input id="frmSearch" class="btnZoom" type="text" required placeholder="Search by location..." >
+           		<button type="button" id="Go" class="Go btnZoom" value='Go'>Search</button>
+       		</form>
+        </div>-->
+        
+        <div class="buttoncontainer">
             <form>
             <h4>Toggle Layers</h4>
                 <input type="checkbox" name="county" >County Layer<br>
@@ -123,26 +124,19 @@
         
         
         <!-- Zoom search & button -->
-        <div class="buttoncontainer" id="search">
+        <div class="buttoncontainer">
         <h4>Search By Location</h4>
         	<div class="wrapper">
-        		<input type="search" id="frmSearch" name="location" class="btnZoom" placeholder="i.e. New York, NY">
+        		<input type="search" id="frmSearch" class="btnZoom" placeholder="i.e. New York, NY">
 				<input type="button"  class="Go btnZoom myButton" value='Go'>
             </div>
             
             <input type="button" class="myButton fullState" value='Zoom to Full State'>
         </div>
-      	</div>
+                      
+        </div>
         
-        
-        
-        
-        <div class="mapFilter">
-        
-        <div class="filtermap" id="heading">Additional Map Settings</div>
-        
-        
-        <div class="column">
+        <div class="column2">
         
         <div class="buttoncontainer">
         	<h4>Limit to Foreign-Born Population</h4>
@@ -167,61 +161,92 @@
                   <option value="1">Limit to tracts in the top 5%</option>
             </select>
             
-            <h4>Limit to Counties</h4>            
+            <h4>Limit to Counties</h4>
             <select name="counties" class="pulldown"></select>
-            
-            <!-- Zoom to county button -->
             <input type="button" class="myButton zoomtocnty" value='Zoom to County'>
-            <br>
-            <!-- Clear county button -->
-            <input type="button" class="myButton clearcnty" value='Clear County'>
                      
 
           </div>
         
+
+
+
+          <!--<div class="buttoncontainer">
+            Go to: <input type="search" id="frmSearch" class="btnZoom" value="New York, NY">
+            <input type="button"  class="Go btnZoom" value='Go'>
+          </div>-->
         </div>
         
         
-        <div class="column">
+        <div class="column3">
         <div class="buttoncontainer">
         <h4>Example Queries</h4>
         
+<!--        Limit to tracts within
+        <select name="search" class="dist btnZoom">
+              <option value="10">10 miles</option>
+              <option value="25">25 miles</option>
+              <option value="50">50 miles</option>
+              <option value="100">100 miles</option>
+              <option value="250">250 miles</option>
+              <option value="500">500 miles</option>
+        </select>
+        
+        of a city with at least 
+        <select name="search" class="people btnZoom">
+              <option value="10000">10,000 people</option>
+              <option value="25000">25,000 people</option>
+              <option value="50000">50,000 people</option>
+              <option value="100000">100,000 people</option>
+              <option value="250000">250,000 people</option>
+              <option value="500000">500,000 people</option>
+        </select>-->
         <h5>Distance & Population Query</h5>
-       <p>Limit to tracts within<br><input id="frmSearch" type="search" name="distance" class="dist btnZoom" placeholder="Distance (i.e. 200)"><br> miles of a city with at least<input id="frmSearch" type="search" name="people" class="people btnZoom" placeholder="Population (i.e. 7,500)">people.<br>
+       <p>Limit to tracts within<input type="search" class="dist btnZoom" placeholder="Distance (i.e. 200)"><br> miles of a city with at least<input  type="search" class="people btnZoom" placeholder="Population (i.e. 10,000)">people.<br>
        
-       <input type="button"  class="distpop myButton" value='Go'>
-       <input type="button"  class="myButton resetdistpop" id="myButton" value='Reset'></p>
+       <input type="button"  class="myButton resetdistpop btnZoom" id="myButton" value='Reset'></p>
         </div>
 
-         <div class="buttoncontainer" style="margin-top:20px">
+         <div class="buttoncontainer">
          <h5>Population Query</h5>
-           Create a container box<br>around tracts with at least <input id="frmSearch" type="search" name="popquery" class="pophull btnZoom" placeholder="Population (i.e. 7,500)">people. 
+           Create a container box<br>around tracts with at least <input  type="search" class="pophull btnZoom" placeholder="Population (i.e. 10,000)">people. 
            <br><input type="button" class="myButton removehull btnZoom" value='Remove Container Box'>
          </div>
         </div>
         
         
+		<div id="hide">
+            	<!--<input type="button" class="myButton fullState" value='Zoom to NYS'>-->
+            	<!--<input type="button" class="myButton zoomtocnty" value='Zoom to County'>    -->        	
+            <!--(Secret hint, try dragging the county boundary)-->
+          	</div>
+        
+        
+        <!-- Zoom search & button -->
+<!--        <input type="search" id="frmSearch" class="btnZoom" value="New York, NY">
+		<input type="button"  class="Go btnZoom" value='Search by Place'>-->
+        
  
          
        </div>
         
+          
+          <div id="map">
+          
+            Map
+            
+          </div>
+
+
+
+
 		
        </div>
-       
-       
-       
-       		<div class="one-third">
-        <h3 class="listHead">From a substance perspective what does this map show you:</h3>
-        <p>As you might expect, the tracts with the highest percentage of people born in other countries tend to be located in New York City (especially Queens). But you can also see some other interesting patterns. If you limit to the Top 5% of tracts based on population born in Asia you can see a tract in Buffalo and one in Rochester. For the those from Eastern Europe, Utica has five tracts in the top 5% -- four of which have more than 20% of the population from Eastern Europe.</p>
-          </div>
-          
-          
-          
-          
-          
 
 
-<div class="two-third">
+<h3>From a substance perspective what does this map show you</h3>
+ <p>As you might expect, the tracts with the highest percentage of people born in other countries tend to be located in New York City (especially Queens). But you can also see some other interesting patterns. If you limit to the Top 5% of tracts based on population born in Asia you can see a tract in Buffalo and one in Rochester. For the those from Eastern Europe, Utica has five tracts in the top 5% -- four of which have more than 20% of the population from Eastern Europe.</p>
+
 <h3><span class="special">The Chart</span>Foreign-born as a percentage of total population (by county) </h3>
       
       <div class="d3">
@@ -238,42 +263,33 @@
         <option value="wasia">Born in Middle East*</option>
       </select>
       </div>
-      </div>
-      
-      <div class="one-third" style="margin-top:76px">
   
-      <h3 class="listHead">Some Technical Details</h3>
+      <h3>Some Technical Details</h3>
 
-      <p>What makes CartoDB powerful is the use of a PostGIS enabled PostgreSQL database. What this means to developers (and ultimately to end users) is that the data can be queried, updated, filtered and styled on the fly and can be rendered in raster or vector formats. With PostGIS queries geographic features can be filtered, for example, based on the geographic relationship with other features. The PostgreSQL back end also means that the CartoDB platform can be used for more than just serving geographic data. You can also query data in more traditional ways.</p>
-      <p style="margin-top:10px">We're also pleased that CartoDB supports Internet Explorer down to version 7. We do have clients that use or require support for both IE7 and IE8.</p>
-      </div>
+      <p>What makes CartoDB powerful is the use of a PostGIS enabled PostgreSQL database. What this means to developers (and ultimately to end users) is that the data can be queried, updated, filtered and styled on the fly and can be rendered in raster or vector formats. With PostGIS queries geographic features can be filtered, for example, based on the geographic relationship with other features. The PostgreSQL backend also means that the CartoDB platform can be used for more than just serving geographic data. You can also query data in more traditional ways.</p>
 
-      
-	<div class="one-third">
+      <p>I'm also pleased that CartoDB supports Internet Explorer down to version 7. We do have clients that use or require support for both IE7 and IE8.</p>
+
       <h3>Data Prep</h3>
       <p>
          Data was downloaded from the Census FactFinder2 web site. We used the American Community Survey 2006-2010 data, variable B05006. Initial processing was done in R statistical software. The data was joined to tract and county shapefiles and zipped for upload to CartoDB.
       </p>
-      </div>
 
 
 
-<div class="two-third">
-<h3>Notes & Acknowledgements</h3>
-	
-	<p>*We're using the term "Middle East" because it's more familiar but the Census defines the region of "Western Asia" as encompassing Iraq, Israel, Jordan, Kuwait, Lebanon, Saudi Arabia, Syria, Yemen, Turkey, Armenia and "Other Western Asia".</p>
+      <h3>Acknowledgments and Notes</h3>
 
-      	<p>Thanks to CartoDB support for quick and helpful responses to our queries. If you have questions about this example please don't hesitate to contact us at info@zevross.com</p>
-      
-      	<p class="date">October 2013</p>
-</div>
-     
+<p>*We're using the term "Middle East" because it's more familiar but the Census defines the region of "Western Asia" as encompassing Iraq, Israel, Jordan, Kuwait, Lebanon, Saudi Arabia, Syria, Yemen, Turkey, Armenia and "Other Western Asia".</p>
 
- 
+      <p>Thanks to CartoDB support for quick and helpful responses to our queries. If you have questions about this example please don't hesitate to contact us at info@zevross.com</p>
+
+
+
+
+      <p class="date">September 2013</p>
+
     </div>
 </body>
-
-
 
 <!-- Here is the info window for tract centroids -->
   <script type="infowindow/html" id="infoTRPT">
@@ -284,50 +300,19 @@
   </div>
   <div class="cartodb-popup-content">
   <!-- content.data contains the field info -->
-  <ul>
-  <li>FIPS: {{content.data.fips}}</li>
-  <li>Population: {{content.data.pop}}</li>
-  <li>All foreign-born: {{content.data._foreign}}%</li>
-  <li>Asia: {{content.data.asia}}%</li>
-  <li>Canada: {{content.data.mexico}}%</li>
-  <li>Caribbean: {{content.data.caribbean}}%</li>
-  <li>China: {{content.data.china}}%</li>
-  <li>Eastern Europe: {{content.data.eeurope}}%</li>
-  <li>India: {{content.data.india}}%</li>
-  <li>Mexico: {{content.data.mexico}}%</li>
-  <li>Middle East*: {{content.data.wasia}}%</li>
-  <li>South America: {{content.data.samerica}}%</li>
-  </ul>
-
-  </div>
-  </div>
-  <div class="cartodb-popup-tip-container"></div>
-  </div>
-  </script>
-  
-  <!-- Infowindow for tract polygons -->
-  <script type="infowindow/html" id="infoTRPOLY">
-  <div class="cartodb-popup">
-  <a href="#close" class="cartodb-popup-close-button close">x</a>
-  <div class="cartodb-popup-content-wrapper">
-  <div class="cartodb-popup-header">
-  </div>
-  <div class="cartodb-popup-content">
-  <!-- content.data contains the field info -->
-  <ul>
-  <li>FIPS: {{content.data.fips}}</li>
-  <li>Population: {{content.data.pop}}</li>
-  <li>All foreign-born: {{content.data._foreign}}%</li>
-  <li>Asia: {{content.data.asia}}%</li>
-  <li>Canada: {{content.data.mexico}}%</li>
-  <li>Caribbean: {{content.data.caribbean}}%</li>
-  <li>China: {{content.data.china}}%</li>
-  <li>Eastern Europe: {{content.data.eeurope}}%</li>
-  <li>India: {{content.data.india}}%</li>
-  <li>Mexico: {{content.data.mexico}}%</li>
-  <li>Middle East*: {{content.data.wasia}}%</li>
-  <li>South America: {{content.data.samerica}}%</li>
-  </ul>
+  <h4>City: </h4>
+  <h3>FIPS: {{content.data.fips}}</h3>
+  <h3>Population:{{content.data.pop}}</h3>
+  <h3>All foreign-born: {{content.data._foreign}}%</h3>
+  <h3>Asia: {{content.data.asia}}%</h3>
+  <h3>Canada: {{content.data.mexico}}%</h3>
+  <h3>Caribbean: {{content.data.caribbean}}%</h3>
+  <h3>China: {{content.data.china}}%</h3>
+  <h3>Eastern Europe: {{content.data.eeurope}}%</h3>
+  <h3>India: {{content.data.india}}%</h3>
+  <h3>Mexico: {{content.data.mexico}}%</h3>
+  <h3>Middle East*: {{content.data.wasia}}%</h3>
+  <h3>South America: {{content.data.samerica}}%</h3>
 
   </div>
   </div>
